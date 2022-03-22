@@ -1,0 +1,1439 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0320.1853                               -->
+<workbook source-build='2021.1.0 (20211.21.0320.1853)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='profiles' inline='true' name='federated.171tod40s4f7x21ertlo21jrh411' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='profiles' name='textscan.0y384fr1v4gm3t1a2m07j1hqpq86'>
+            <connection class='textscan' directory='D:/2 semestr_magistr/Техноатом_аналитика данных/Домашнее задание/ДЗ_6' filename='profiles.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0y384fr1v4gm3t1a2m07j1hqpq86' name='profiles.csv' table='[profiles#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ru_RU' separator=',' text-qualifier='&quot;'>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='string' name='body_type' ordinal='1' />
+            <column datatype='string' name='diet' ordinal='2' />
+            <column datatype='string' name='drinks' ordinal='3' />
+            <column datatype='string' name='drugs' ordinal='4' />
+            <column datatype='string' name='education' ordinal='5' />
+            <column datatype='string' name='essay0' ordinal='6' />
+            <column datatype='string' name='essay1' ordinal='7' />
+            <column datatype='string' name='essay2' ordinal='8' />
+            <column datatype='string' name='essay3' ordinal='9' />
+            <column datatype='string' name='essay4' ordinal='10' />
+            <column datatype='string' name='essay5' ordinal='11' />
+            <column datatype='string' name='essay6' ordinal='12' />
+            <column datatype='string' name='essay7' ordinal='13' />
+            <column datatype='string' name='essay8' ordinal='14' />
+            <column datatype='string' name='essay9' ordinal='15' />
+            <column datatype='string' name='ethnicity' ordinal='16' />
+            <column datatype='integer' name='height' ordinal='17' />
+            <column datatype='integer' name='income' ordinal='18' />
+            <column datatype='string' name='job' ordinal='19' />
+            <column datatype='string' name='last_online' ordinal='20' />
+            <column datatype='string' name='location' ordinal='21' />
+            <column datatype='string' name='offspring' ordinal='22' />
+            <column datatype='string' name='orientation' ordinal='23' />
+            <column datatype='string' name='pets' ordinal='24' />
+            <column datatype='string' name='religion' ordinal='25' />
+            <column datatype='string' name='sex' ordinal='26' />
+            <column datatype='string' name='sign' ordinal='27' />
+            <column datatype='string' name='smokes' ordinal='28' />
+            <column datatype='string' name='speaks' ordinal='29' />
+            <column datatype='string' name='status' ordinal='30' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0y384fr1v4gm3t1a2m07j1hqpq86' name='profiles.csv' table='[profiles#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ru_RU' separator=',' text-qualifier='&quot;'>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='string' name='body_type' ordinal='1' />
+            <column datatype='string' name='diet' ordinal='2' />
+            <column datatype='string' name='drinks' ordinal='3' />
+            <column datatype='string' name='drugs' ordinal='4' />
+            <column datatype='string' name='education' ordinal='5' />
+            <column datatype='string' name='essay0' ordinal='6' />
+            <column datatype='string' name='essay1' ordinal='7' />
+            <column datatype='string' name='essay2' ordinal='8' />
+            <column datatype='string' name='essay3' ordinal='9' />
+            <column datatype='string' name='essay4' ordinal='10' />
+            <column datatype='string' name='essay5' ordinal='11' />
+            <column datatype='string' name='essay6' ordinal='12' />
+            <column datatype='string' name='essay7' ordinal='13' />
+            <column datatype='string' name='essay8' ordinal='14' />
+            <column datatype='string' name='essay9' ordinal='15' />
+            <column datatype='string' name='ethnicity' ordinal='16' />
+            <column datatype='integer' name='height' ordinal='17' />
+            <column datatype='integer' name='income' ordinal='18' />
+            <column datatype='string' name='job' ordinal='19' />
+            <column datatype='string' name='last_online' ordinal='20' />
+            <column datatype='string' name='location' ordinal='21' />
+            <column datatype='string' name='offspring' ordinal='22' />
+            <column datatype='string' name='orientation' ordinal='23' />
+            <column datatype='string' name='pets' ordinal='24' />
+            <column datatype='string' name='religion' ordinal='25' />
+            <column datatype='string' name='sex' ordinal='26' />
+            <column datatype='string' name='sign' ordinal='27' />
+            <column datatype='string' name='smokes' ordinal='28' />
+            <column datatype='string' name='speaks' ordinal='29' />
+            <column datatype='string' name='status' ordinal='30' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ru&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;руб.&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ru_RU&quot;</attribute>
+              <attribute datatype='string' name='quote-char'>&quot;\&quot;&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>body_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[body_type]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>body_type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[diet]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>diet</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drinks</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[drinks]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>drinks</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>drugs</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[drugs]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>drugs</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>education</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[education]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>education</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>essay0</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[essay0]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>essay0</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>essay1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[essay1]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>essay1</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>essay2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[essay2]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>essay2</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>essay3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[essay3]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>essay3</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>essay4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[essay4]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>essay4</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>essay5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[essay5]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>essay5</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>essay6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[essay6]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>essay6</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>essay7</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[essay7]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>essay7</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>essay8</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[essay8]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>essay8</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>essay9</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[essay9]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>essay9</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ethnicity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ethnicity]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>ethnicity</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>height</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[height]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>height</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[income]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>income</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[job]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>job</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_online</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[last_online]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>last_online</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offspring</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[offspring]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>offspring</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>orientation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[orientation]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>orientation</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pets</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pets]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>pets</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>religion</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[religion]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>religion</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sex]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>sex</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sign</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sign]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>sign</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>smokes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[smokes]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>smokes</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>speaks</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[speaks]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>speaks</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[status]</local-name>
+            <parent-name>[profiles.csv]</parent-name>
+            <remote-alias>status</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[profiles.csv_03E365CF544544EAA7ED90C483466872]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='AgeGroup' datatype='string' name='[Calculation_807833216514617344]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF  [age]&gt;=18 and [age]&lt;=21 THEN   &apos;18-21&apos;&#13;&#10;ELSEIF  [age]&gt;=22 AND [age]&lt;=35 THEN &apos;22-35&apos;&#13;&#10;ELSEIF  [age] &gt;= 36  AND  [age]&lt;=55 THEN &apos;35-55&apos;&#13;&#10;ELSE  &apos;55+&apos; END' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='profiles.csv' datatype='table' name='[__tableau_internal_object_id__].[profiles.csv_03E365CF544544EAA7ED90C483466872]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Russia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='profiles.csv' id='profiles.csv_03E365CF544544EAA7ED90C483466872'>
+            <properties context=''>
+              <relation connection='textscan.0y384fr1v4gm3t1a2m07j1hqpq86' name='profiles.csv' table='[profiles#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ru_RU' separator=',' text-qualifier='&quot;'>
+                  <column datatype='integer' name='age' ordinal='0' />
+                  <column datatype='string' name='body_type' ordinal='1' />
+                  <column datatype='string' name='diet' ordinal='2' />
+                  <column datatype='string' name='drinks' ordinal='3' />
+                  <column datatype='string' name='drugs' ordinal='4' />
+                  <column datatype='string' name='education' ordinal='5' />
+                  <column datatype='string' name='essay0' ordinal='6' />
+                  <column datatype='string' name='essay1' ordinal='7' />
+                  <column datatype='string' name='essay2' ordinal='8' />
+                  <column datatype='string' name='essay3' ordinal='9' />
+                  <column datatype='string' name='essay4' ordinal='10' />
+                  <column datatype='string' name='essay5' ordinal='11' />
+                  <column datatype='string' name='essay6' ordinal='12' />
+                  <column datatype='string' name='essay7' ordinal='13' />
+                  <column datatype='string' name='essay8' ordinal='14' />
+                  <column datatype='string' name='essay9' ordinal='15' />
+                  <column datatype='string' name='ethnicity' ordinal='16' />
+                  <column datatype='integer' name='height' ordinal='17' />
+                  <column datatype='integer' name='income' ordinal='18' />
+                  <column datatype='string' name='job' ordinal='19' />
+                  <column datatype='string' name='last_online' ordinal='20' />
+                  <column datatype='string' name='location' ordinal='21' />
+                  <column datatype='string' name='offspring' ordinal='22' />
+                  <column datatype='string' name='orientation' ordinal='23' />
+                  <column datatype='string' name='pets' ordinal='24' />
+                  <column datatype='string' name='religion' ordinal='25' />
+                  <column datatype='string' name='sex' ordinal='26' />
+                  <column datatype='string' name='sign' ordinal='27' />
+                  <column datatype='string' name='smokes' ordinal='28' />
+                  <column datatype='string' name='speaks' ordinal='29' />
+                  <column datatype='string' name='status' ordinal='30' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Age(drugs&amp;smokes)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Средний рост в зависимости от употребления алкоголя и курения
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='profiles' name='federated.171tod40s4f7x21ertlo21jrh411' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171tod40s4f7x21ertlo21jrh411'>
+            <column-instance column='[height]' derivation='Avg' name='[avg:height:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[drugs]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[height]' role='measure' type='quantitative' />
+            <column-instance column='[drugs]' derivation='None' name='[none:drugs:nk]' pivot='key' type='nominal' />
+            <column-instance column='[smokes]' derivation='None' name='[none:smokes:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[smokes]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.171tod40s4f7x21ertlo21jrh411].[none:smokes:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:smokes:nk]' />
+              <groupfilter function='member' level='[none:smokes:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.171tod40s4f7x21ertlo21jrh411].[none:drugs:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.171tod40s4f7x21ertlo21jrh411].[avg:height:qk]' shelf='rows'>
+              <sort-filter-info>
+                <sort-filter level-name='[federated.171tod40s4f7x21ertlo21jrh411].[none:smokes:nk]' member-value='%null%' />
+              </sort-filter-info>
+            </shelf-sort-v2>
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='120' />
+            <format attr='cell-h' value='60' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.171tod40s4f7x21ertlo21jrh411].[avg:height:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.171tod40s4f7x21ertlo21jrh411].[avg:height:qk]' />
+              <text column='[federated.171tod40s4f7x21ertlo21jrh411].[avg:height:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.171tod40s4f7x21ertlo21jrh411].[none:drugs:nk]</rows>
+        <cols>[federated.171tod40s4f7x21ertlo21jrh411].[none:smokes:nk]</cols>
+      </table>
+      <simple-id uuid='{AB10E4CD-E696-4F5A-A032-A984DD59A504}' />
+    </worksheet>
+    <worksheet name='Body(status)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='profiles' name='federated.171tod40s4f7x21ertlo21jrh411' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171tod40s4f7x21ertlo21jrh411'>
+            <column datatype='string' name='[body_type]' role='dimension' type='nominal' />
+            <column-instance column='[body_type]' derivation='Count' name='[cnt:body_type:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[body_type]' derivation='None' name='[none:body_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sex]' derivation='None' name='[none:sex:nk]' pivot='key' type='nominal' />
+            <column-instance column='[status]' derivation='None' name='[none:status:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[sex]' role='dimension' type='nominal' />
+            <column datatype='string' name='[status]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.171tod40s4f7x21ertlo21jrh411].[none:body_type:nk]' value='78' />
+            <format attr='width' field='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:body_type:qk]' value='78' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:body_type:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.171tod40s4f7x21ertlo21jrh411].[none:status:nk] / [federated.171tod40s4f7x21ertlo21jrh411].[none:body_type:nk])</rows>
+        <cols>([federated.171tod40s4f7x21ertlo21jrh411].[none:sex:nk] * [federated.171tod40s4f7x21ertlo21jrh411].[cnt:body_type:qk])</cols>
+      </table>
+      <simple-id uuid='{3E594DFD-E2EB-4642-9136-B737E1D471B3}' />
+    </worksheet>
+    <worksheet name='Diet(sex&amp;age)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Виды диет в зависимости от возраста и пола</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='profiles' name='federated.171tod40s4f7x21ertlo21jrh411' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171tod40s4f7x21ertlo21jrh411'>
+            <column caption='AgeGroup' datatype='string' name='[Calculation_807833216514617344]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF  [age]&gt;=18 and [age]&lt;=21 THEN   &apos;18-21&apos;&#13;&#10;ELSEIF  [age]&gt;=22 AND [age]&lt;=35 THEN &apos;22-35&apos;&#13;&#10;ELSEIF  [age] &gt;= 36  AND  [age]&lt;=55 THEN &apos;35-55&apos;&#13;&#10;ELSE  &apos;55+&apos; END' />
+            </column>
+            <column datatype='integer' name='[age]' role='measure' type='quantitative' />
+            <column-instance column='[diet]' derivation='Count' name='[cnt:diet:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[diet]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_807833216514617344]' derivation='None' name='[none:Calculation_807833216514617344:nk]' pivot='key' type='nominal' />
+            <column-instance column='[diet]' derivation='None' name='[none:diet:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sex]' derivation='None' name='[none:sex:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[sex]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.171tod40s4f7x21ertlo21jrh411].[none:sex:nk]'>
+            <groupfilter function='level-members' level='[none:sex:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.171tod40s4f7x21ertlo21jrh411].[none:sex:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:diet:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:diet:qk]' />
+              <text column='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:diet:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.171tod40s4f7x21ertlo21jrh411].[none:diet:nk]</rows>
+        <cols>([federated.171tod40s4f7x21ertlo21jrh411].[none:Calculation_807833216514617344:nk] / [federated.171tod40s4f7x21ertlo21jrh411].[none:sex:nk])</cols>
+      </table>
+      <simple-id uuid='{7E93A5BE-7A03-4A23-AE71-1191CC95222E}' />
+    </worksheet>
+    <worksheet name='Income(sex&amp;religion)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Заработок от возраста и религии
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='profiles' name='federated.171tod40s4f7x21ertlo21jrh411' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171tod40s4f7x21ertlo21jrh411'>
+            <column caption='AgeGroup' datatype='string' name='[Calculation_807833216514617344]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF  [age]&gt;=18 and [age]&lt;=21 THEN   &apos;18-21&apos;&#13;&#10;ELSEIF  [age]&gt;=22 AND [age]&lt;=35 THEN &apos;22-35&apos;&#13;&#10;ELSEIF  [age] &gt;= 36  AND  [age]&lt;=55 THEN &apos;35-55&apos;&#13;&#10;ELSE  &apos;55+&apos; END' />
+            </column>
+            <column datatype='integer' name='[age]' role='measure' type='quantitative' />
+            <column-instance column='[income]' derivation='Avg' name='[avg:income:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[income]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_807833216514617344]' derivation='None' name='[none:Calculation_807833216514617344:nk]' pivot='key' type='nominal' />
+            <column-instance column='[religion]' derivation='None' name='[none:religion:nk]' pivot='key' type='nominal' />
+            <column-instance column='[sex]' derivation='None' name='[none:sex:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[religion]' role='dimension' type='nominal' />
+            <column datatype='string' name='[sex]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='100' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.171tod40s4f7x21ertlo21jrh411].[none:religion:nk]' value='444' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.171tod40s4f7x21ertlo21jrh411].[avg:income:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.171tod40s4f7x21ertlo21jrh411].[avg:income:qk]' />
+              <text column='[federated.171tod40s4f7x21ertlo21jrh411].[avg:income:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.171tod40s4f7x21ertlo21jrh411].[none:sex:nk] / [federated.171tod40s4f7x21ertlo21jrh411].[none:religion:nk])</rows>
+        <cols>[federated.171tod40s4f7x21ertlo21jrh411].[none:Calculation_807833216514617344:nk]</cols>
+      </table>
+      <simple-id uuid='{D4F3D30B-106F-4B70-A15A-DF03A5F1335B}' />
+    </worksheet>
+    <worksheet name='Pets(orient)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Кол-во людей имеющих питомцев в зависимости от ориетации)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='profiles' name='federated.171tod40s4f7x21ertlo21jrh411' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171tod40s4f7x21ertlo21jrh411'>
+            <column-instance column='[orientation]' derivation='Count' name='[cnt:orientation:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[orientation]' derivation='None' name='[none:orientation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[pets]' derivation='None' name='[none:pets:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[orientation]' role='dimension' type='nominal' />
+            <column datatype='string' name='[pets]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.171tod40s4f7x21ertlo21jrh411].[none:pets:nk]' value='224' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.171tod40s4f7x21ertlo21jrh411].[none:pets:nk]' />
+              <text column='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:orientation:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.171tod40s4f7x21ertlo21jrh411].[none:orientation:nk] / [federated.171tod40s4f7x21ertlo21jrh411].[none:pets:nk])</rows>
+        <cols>[federated.171tod40s4f7x21ertlo21jrh411].[cnt:orientation:qk]</cols>
+      </table>
+      <simple-id uuid='{615B3C0F-F954-4D33-B20C-F0B402909D35}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>кол-во людей на диете при разных статусах</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='profiles' name='federated.171tod40s4f7x21ertlo21jrh411' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171tod40s4f7x21ertlo21jrh411'>
+            <column-instance column='[diet]' derivation='Count' name='[cnt:diet:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[diet]' role='dimension' type='nominal' />
+            <column-instance column='[diet]' derivation='None' name='[none:diet:nk]' pivot='key' type='nominal' />
+            <column-instance column='[status]' derivation='None' name='[none:status:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[status]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:diet:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:diet:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.171tod40s4f7x21ertlo21jrh411].[none:status:nk] / [federated.171tod40s4f7x21ertlo21jrh411].[none:diet:nk])</rows>
+        <cols>[federated.171tod40s4f7x21ertlo21jrh411].[cnt:diet:qk]</cols>
+      </table>
+      <simple-id uuid='{3D97DDB4-B70C-47CC-9971-B1F4D3D5E2CD}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Статус и животные</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='profiles' name='federated.171tod40s4f7x21ertlo21jrh411' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171tod40s4f7x21ertlo21jrh411'>
+            <column-instance column='[job]' derivation='Count' name='[cnt:job:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[status]' derivation='Count' name='[cnt:status:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[job]' role='dimension' type='nominal' />
+            <column-instance column='[pets]' derivation='None' name='[none:pets:nk]' pivot='key' type='nominal' />
+            <column-instance column='[status]' derivation='None' name='[none:status:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[pets]' role='dimension' type='nominal' />
+            <column datatype='string' name='[status]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.171tod40s4f7x21ertlo21jrh411].[none:pets:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:pets:nk]' />
+              <groupfilter function='member' level='[none:pets:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.171tod40s4f7x21ertlo21jrh411].[none:pets:nk]' direction='DESC' using='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:job:qk]'>
+            <groupfilter function='member' level='[none:status:nk]' member='&quot;available&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </computed-sort>
+          <filter class='categorical' column='[federated.171tod40s4f7x21ertlo21jrh411].[none:status:nk]'>
+            <groupfilter function='level-members' level='[none:status:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.171tod40s4f7x21ertlo21jrh411].[none:status:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.171tod40s4f7x21ertlo21jrh411].[none:pets:nk]' value='34' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.171tod40s4f7x21ertlo21jrh411].[none:pets:nk]' value='248' />
+            <format attr='height' field='[federated.171tod40s4f7x21ertlo21jrh411].[none:status:nk]' value='10' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:job:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:status:qk]' />
+              <text column='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:status:qk]' />
+              <lod column='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:status:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='105' />
+                <format attr='maxwidth' value='105' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.171tod40s4f7x21ertlo21jrh411].[none:pets:nk]</rows>
+        <cols>([federated.171tod40s4f7x21ertlo21jrh411].[none:status:nk] * [federated.171tod40s4f7x21ertlo21jrh411].[cnt:job:qk])</cols>
+      </table>
+      <simple-id uuid='{0B843320-1655-497A-A8A6-3AFCCCD72866}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Кол-во людей с определнным  типом тела в зависимости от диеты </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='profiles' name='federated.171tod40s4f7x21ertlo21jrh411' />
+          </datasources>
+          <datasource-dependencies datasource='federated.171tod40s4f7x21ertlo21jrh411'>
+            <column datatype='string' name='[body_type]' role='dimension' type='nominal' />
+            <column-instance column='[body_type]' derivation='Count' name='[cnt:body_type:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[diet]' role='dimension' type='nominal' />
+            <column-instance column='[body_type]' derivation='None' name='[none:body_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[diet]' derivation='None' name='[none:diet:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='965' />
+            <format attr='font-size' field='[federated.171tod40s4f7x21ertlo21jrh411].[none:diet:nk]' value='7' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='total' field='[federated.171tod40s4f7x21ertlo21jrh411].[none:diet:nk]' value='7' />
+            <format attr='font-size' data-class='subtotal' field='[federated.171tod40s4f7x21ertlo21jrh411].[none:diet:nk]' value='7' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.171tod40s4f7x21ertlo21jrh411].[none:diet:nk]' value='7' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:body_type:qk]' />
+              <text column='[federated.171tod40s4f7x21ertlo21jrh411].[none:body_type:nk]' />
+              <text column='[federated.171tod40s4f7x21ertlo21jrh411].[none:diet:nk]' />
+              <text column='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:body_type:qk]' />
+              <color column='[federated.171tod40s4f7x21ertlo21jrh411].[none:body_type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{54544CFF-C623-471C-ADDE-CA9AF302777E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='profiles' name='federated.171tod40s4f7x21ertlo21jrh411' />
+      </datasources>
+      <datasource-dependencies datasource='federated.171tod40s4f7x21ertlo21jrh411'>
+        <column-instance column='[sex]' derivation='None' name='[none:sex:nk]' pivot='key' type='nominal' />
+        <column-instance column='[status]' derivation='None' name='[none:status:nk]' pivot='key' type='nominal' />
+        <column datatype='string' name='[sex]' role='dimension' type='nominal' />
+        <column datatype='string' name='[status]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='64875' id='3' name='Diet(sex&amp;age)' w='65700' x='35100' y='625' />
+        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='13125' id='8' name='Diet(sex&amp;age)' param='[federated.171tod40s4f7x21ertlo21jrh411].[none:sex:nk]' w='16800' x='3300' y='4125' />
+        <zone h='43750' id='9' name='Sheet 7' w='97700' x='2800' y='58625' />
+        <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='20750' id='10' name='Sheet 7' param='[federated.171tod40s4f7x21ertlo21jrh411].[none:status:nk]' values='database' w='16000' x='3300' y='15875' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='2' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='84000' id='1' param='vert' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E331D948-09D0-43D6-86CC-F11F69BA0205}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Diet(sex&amp;age)' tab-color='#a65200'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='37'>
+            <card type='columns' />
+          </strip>
+          <strip size='37'>
+            <card type='rows' />
+          </strip>
+          <strip size='37'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.171tod40s4f7x21ertlo21jrh411].[none:sex:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:diet:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{536E8DF7-1DF0-41EB-AB97-78E50F9EDBCF}' />
+    </window>
+    <window class='worksheet' name='Income(sex&amp;religion)' tab-color='#f66273'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.171tod40s4f7x21ertlo21jrh411].[avg:income:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0C85F88E-A3E7-410D-9468-18FF2D962AD6}' />
+    </window>
+    <window class='worksheet' name='Body(status)' tab-color='#6e597f'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1EFB3F92-C358-41FE-900C-D9405030E74C}' />
+    </window>
+    <window class='worksheet' name='Pets(orient)' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.171tod40s4f7x21ertlo21jrh411].[none:pets:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B8E5366E-7E28-4558-A676-33D861D34F53}' />
+    </window>
+    <window class='worksheet' name='Age(drugs&amp;smokes)' tab-color='#72bcbb'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.171tod40s4f7x21ertlo21jrh411].[avg:height:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AAD71A25-6AB9-4385-89D1-669A2B44F6DE}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{612B310F-D88C-4111-965E-6DC5E78C5B37}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.171tod40s4f7x21ertlo21jrh411].[none:status:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.171tod40s4f7x21ertlo21jrh411].[cnt:status:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B45A1DDD-E016-4138-A769-488DCFF08663}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.171tod40s4f7x21ertlo21jrh411].[none:body_type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8D3314E8-9022-4EF7-9223-6424FD69D5B5}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Diet(sex&amp;age)' />
+        <viewpoint name='Sheet 7' />
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{2A50EF7B-B187-4999-AF76-56848135D279}' />
+    </window>
+  </windows>
+</workbook>
